@@ -110,7 +110,7 @@ else
 fi;
 
 # Highlight the hostname when connected via SSH.
-if [[ -n "${SSH_TTY}" ]]; then
+if [[ -n "${SSH_TTY}" || "${USER}" == "root" ]]; then
 	hostPrompt=" at ${yellow}%m%{$reset_color%}";
 else
 	hostPrompt="";
