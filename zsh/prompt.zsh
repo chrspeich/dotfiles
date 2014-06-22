@@ -99,7 +99,7 @@ prompt_git() {
 }
 
 directory_name() {
-  echo "${green}%1/%\/%{$reset_color%}"
+  echo "${green}%c%{$reset_color%}"
 }
 
 # Highlight the user name when logged in as root.
