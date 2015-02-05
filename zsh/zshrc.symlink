@@ -40,3 +40,4 @@ do
 done
 
 unset config_files
+bindkey -e
