@@ -41,3 +41,6 @@ done
 
 unset config_files
 bindkey -e
+export GOPATH="$HOME/gosrc"
+
+source /usr/local/bin/virtualenvwrapper.sh
